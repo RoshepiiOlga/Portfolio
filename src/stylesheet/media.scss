@@ -1,0 +1,21 @@
+@media (min-width: 320px) and (max-width: 780px){
+  body .aboutUs .blocks{
+    display: block;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px){
+  .skills .person-skills{
+    & .skills-list{
+      & div{
+        display: block;
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 420px){
+  .creativeText{
+    .margin{
+      margin: 0;
+    }
+  }
+}
